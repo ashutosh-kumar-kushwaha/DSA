@@ -24,7 +24,7 @@ void insertAtHead(Node* &head, int d){
     head = node;
 }
 
-void print(Node* &head){
+void print(Node* head){
     Node* node = head;
     while(node != NULL){
         cout << node->data << " ";
